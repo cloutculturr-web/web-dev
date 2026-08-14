@@ -7,16 +7,6 @@ const contactLinks = [
 function App() {
   return (
     <main className="coming-soon-page">
-      <video
-        className="bg-video"
-        src="/background.mp4"
-        autoPlay
-        muted
-        loop
-        playsInline
-        aria-hidden="true"
-      />
-      <div className="bg-video-overlay" aria-hidden="true" />
       <div className="ambient-glow ambient-glow-left" aria-hidden="true" />
       <div className="ambient-glow ambient-glow-right" aria-hidden="true" />
       <div className="grain" aria-hidden="true" />
